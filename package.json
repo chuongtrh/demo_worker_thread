@@ -1,0 +1,19 @@
+{
+  "name": "worker-thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "nodemon app.js",
+    "start:worker": "nodemon --experimental-worker app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "worker-threads-pool": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
